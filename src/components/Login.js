@@ -8,29 +8,7 @@ const Login = (props) => {
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  // ****************************************************
-  // ***This code came along with the assignment*********
-  // ***I don't think it's supposed to be here***********
-  // ****************************************************
-  // useEffect(()=>{
-  //   axios
-  //     .delete(`http://localhost:5000/api/colors/1`, {
-  //       headers:{
-  //         'authorization': "ahuBHejkJJiMDhmODZhZi0zaeLTQ4ZfeaseOGZgesai1jZWYgrTA07i73Gebhu98"
-  //       }
-  //     })
-  //     .then(res=>{
-  //       axios.get(`http://localhost:5000/api/colors`, {
-  //         headers:{
-  //           'authorization': ""
-  //         }
-  //       })
-  //       .then(res=> {
-  //         console.log(res);
-  //       });
-  //       console.log(res);
-  //     })
-  // }, []);
+  
 
   useEffect(() => {
     if (props.location.state) {

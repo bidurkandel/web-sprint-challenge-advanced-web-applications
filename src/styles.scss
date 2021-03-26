@@ -33,7 +33,7 @@ body,
 .colors-wrap {
   height: 100%;
   width: 300px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(23, 88, 50, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 
   ul {
     list-style: none;
@@ -50,13 +50,13 @@ body,
 }
 
 .delete {
-  color: rgb(216, 87, 87);
+  color: rgba(44, 140, 204, 0.596);
 }
 
 .color-box {
   height: 16px;
   width: 16px;
-  border: 1px lightgray solid;
+  border: 1px rgb(156, 25, 86) solid;
   margin-right: 36px;
 }
 
@@ -91,14 +91,14 @@ form {
 }
 button {
   border: none;
-  background-color: black;
-  color: white;
+  background-color: rgba(44, 116, 11, 0.39);
+  color: rgba(108, 143, 28, 0.219);
   padding: 3px 8px;
   margin-top: 16px;
 }
 
 .error {
-  color: red;
+  color: rgba(166, 255, 0, 0);
 }
 
 .login-form {
